@@ -29,21 +29,21 @@ pip install -r requirements.txt
 python statistical_shape_modeling.py
 ```
 
-## Result screenshots
+## Shape-model outputs
 
 ![statistical-shape-modeling result screenshot](docs/results/result-screenshot.png)
 
 Aligned landmarks, PCA energy, and PCA reconstruction output from the shape-modeling script.
 
 
-## What this demonstrates
+## Modeling workflow
 
 - Generalized Procrustes alignment and PCA/PPCA shape modeling.
 - Generated diagnostic plots for modes, reconstruction, and explained variance.
 - Template-matching experiments alongside statistical shape analysis.
 
 
-## Limitations and next steps
+## Follow-up validation
 
 - The project is dataset-focused and not packaged as a reusable library.
 - Model quality depends on the landmark consistency of the training shapes.
